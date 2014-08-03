@@ -418,6 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Prefix.pch";
 				INFOPLIST_FILE = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,6 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Prefix.pch";
 				INFOPLIST_FILE = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -495,6 +497,7 @@
 				020F6EC8198E31DE002EC6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		020F6EC9198E31DE002EC6C0 /* Build configuration list for PBXNativeTarget "FWImageViewPlayGIFDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +506,7 @@
 				020F6ECB198E31DE002EC6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
