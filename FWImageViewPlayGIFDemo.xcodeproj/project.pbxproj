@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020F6E98198E31DE002EC6C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6E97198E31DE002EC6C0 /* Foundation.framework */; };
+		020F6E9A198E31DE002EC6C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6E99198E31DE002EC6C0 /* CoreGraphics.framework */; };
+		020F6E9C198E31DE002EC6C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6E9B198E31DE002EC6C0 /* UIKit.framework */; };
+		020F6EA2198E31DE002EC6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 020F6EA0198E31DE002EC6C0 /* InfoPlist.strings */; };
+		020F6EA4198E31DE002EC6C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 020F6EA3198E31DE002EC6C0 /* main.m */; };
+		020F6EA8198E31DE002EC6C0 /* FWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 020F6EA7198E31DE002EC6C0 /* FWAppDelegate.m */; };
+		020F6EAB198E31DE002EC6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020F6EA9198E31DE002EC6C0 /* Main.storyboard */; };
+		020F6EAE198E31DE002EC6C0 /* FWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020F6EAD198E31DE002EC6C0 /* FWViewController.m */; };
+		020F6EB0198E31DE002EC6C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020F6EAF198E31DE002EC6C0 /* Images.xcassets */; };
+		020F6EB7198E31DE002EC6C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6EB6198E31DE002EC6C0 /* XCTest.framework */; };
+		020F6EB8198E31DE002EC6C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6E97198E31DE002EC6C0 /* Foundation.framework */; };
+		020F6EB9198E31DE002EC6C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6E9B198E31DE002EC6C0 /* UIKit.framework */; };
+		020F6EC1198E31DE002EC6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 020F6EBF198E31DE002EC6C0 /* InfoPlist.strings */; };
+		020F6EC3198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020F6EC2198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020F6EBA198E31DE002EC6C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020F6E8C198E31DE002EC6C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020F6E93198E31DE002EC6C0;
+			remoteInfo = FWImageViewPlayGIFDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020F6E94198E31DE002EC6C0 /* FWImageViewPlayGIFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWImageViewPlayGIFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020F6E97198E31DE002EC6C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		020F6E99198E31DE002EC6C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		020F6E9B198E31DE002EC6C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		020F6E9F198E31DE002EC6C0 /* FWImageViewPlayGIFDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FWImageViewPlayGIFDemo-Info.plist"; sourceTree = "<group>"; };
+		020F6EA1198E31DE002EC6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		020F6EA3198E31DE002EC6C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		020F6EA5198E31DE002EC6C0 /* FWImageViewPlayGIFDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FWImageViewPlayGIFDemo-Prefix.pch"; sourceTree = "<group>"; };
+		020F6EA6198E31DE002EC6C0 /* FWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWAppDelegate.h; sourceTree = "<group>"; };
+		020F6EA7198E31DE002EC6C0 /* FWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWAppDelegate.m; sourceTree = "<group>"; };
+		020F6EAA198E31DE002EC6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		020F6EAC198E31DE002EC6C0 /* FWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWViewController.h; sourceTree = "<group>"; };
+		020F6EAD198E31DE002EC6C0 /* FWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWViewController.m; sourceTree = "<group>"; };
+		020F6EAF198E31DE002EC6C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		020F6EB5198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWImageViewPlayGIFDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020F6EB6198E31DE002EC6C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		020F6EBE198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FWImageViewPlayGIFDemoTests-Info.plist"; sourceTree = "<group>"; };
+		020F6EC0198E31DE002EC6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		020F6EC2198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWImageViewPlayGIFDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020F6E91198E31DE002EC6C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020F6E9A198E31DE002EC6C0 /* CoreGraphics.framework in Frameworks */,
+				020F6E9C198E31DE002EC6C0 /* UIKit.framework in Frameworks */,
+				020F6E98198E31DE002EC6C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020F6EB2198E31DE002EC6C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020F6EB7198E31DE002EC6C0 /* XCTest.framework in Frameworks */,
+				020F6EB9198E31DE002EC6C0 /* UIKit.framework in Frameworks */,
+				020F6EB8198E31DE002EC6C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020F6E8B198E31DE002EC6C0 = {
+			isa = PBXGroup;
+			children = (
+				020F6E9D198E31DE002EC6C0 /* FWImageViewPlayGIFDemo */,
+				020F6EBC198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests */,
+				020F6E96198E31DE002EC6C0 /* Frameworks */,
+				020F6E95198E31DE002EC6C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020F6E95198E31DE002EC6C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020F6E94198E31DE002EC6C0 /* FWImageViewPlayGIFDemo.app */,
+				020F6EB5198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020F6E96198E31DE002EC6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				020F6E97198E31DE002EC6C0 /* Foundation.framework */,
+				020F6E99198E31DE002EC6C0 /* CoreGraphics.framework */,
+				020F6E9B198E31DE002EC6C0 /* UIKit.framework */,
+				020F6EB6198E31DE002EC6C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		020F6E9D198E31DE002EC6C0 /* FWImageViewPlayGIFDemo */ = {
+			isa = PBXGroup;
+			children = (
+				020F6EA6198E31DE002EC6C0 /* FWAppDelegate.h */,
+				020F6EA7198E31DE002EC6C0 /* FWAppDelegate.m */,
+				020F6EA9198E31DE002EC6C0 /* Main.storyboard */,
+				020F6EAC198E31DE002EC6C0 /* FWViewController.h */,
+				020F6EAD198E31DE002EC6C0 /* FWViewController.m */,
+				020F6EAF198E31DE002EC6C0 /* Images.xcassets */,
+				020F6E9E198E31DE002EC6C0 /* Supporting Files */,
+			);
+			path = FWImageViewPlayGIFDemo;
+			sourceTree = "<group>";
+		};
+		020F6E9E198E31DE002EC6C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				020F6E9F198E31DE002EC6C0 /* FWImageViewPlayGIFDemo-Info.plist */,
+				020F6EA0198E31DE002EC6C0 /* InfoPlist.strings */,
+				020F6EA3198E31DE002EC6C0 /* main.m */,
+				020F6EA5198E31DE002EC6C0 /* FWImageViewPlayGIFDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		020F6EBC198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				020F6EC2198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m */,
+				020F6EBD198E31DE002EC6C0 /* Supporting Files */,
+			);
+			path = FWImageViewPlayGIFDemoTests;
+			sourceTree = "<group>";
+		};
+		020F6EBD198E31DE002EC6C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				020F6EBE198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests-Info.plist */,
+				020F6EBF198E31DE002EC6C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020F6E93198E31DE002EC6C0 /* FWImageViewPlayGIFDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020F6EC6198E31DE002EC6C0 /* Build configuration list for PBXNativeTarget "FWImageViewPlayGIFDemo" */;
+			buildPhases = (
+				020F6E90198E31DE002EC6C0 /* Sources */,
+				020F6E91198E31DE002EC6C0 /* Frameworks */,
+				020F6E92198E31DE002EC6C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FWImageViewPlayGIFDemo;
+			productName = FWImageViewPlayGIFDemo;
+			productReference = 020F6E94198E31DE002EC6C0 /* FWImageViewPlayGIFDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		020F6EB4198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020F6EC9198E31DE002EC6C0 /* Build configuration list for PBXNativeTarget "FWImageViewPlayGIFDemoTests" */;
+			buildPhases = (
+				020F6EB1198E31DE002EC6C0 /* Sources */,
+				020F6EB2198E31DE002EC6C0 /* Frameworks */,
+				020F6EB3198E31DE002EC6C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020F6EBB198E31DE002EC6C0 /* PBXTargetDependency */,
+			);
+			name = FWImageViewPlayGIFDemoTests;
+			productName = FWImageViewPlayGIFDemoTests;
+			productReference = 020F6EB5198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020F6E8C198E31DE002EC6C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CyonLeuInc;
+				TargetAttributes = {
+					020F6EB4198E31DE002EC6C0 = {
+						TestTargetID = 020F6E93198E31DE002EC6C0;
+					};
+				};
+			};
+			buildConfigurationList = 020F6E8F198E31DE002EC6C0 /* Build configuration list for PBXProject "FWImageViewPlayGIFDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020F6E8B198E31DE002EC6C0;
+			productRefGroup = 020F6E95198E31DE002EC6C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020F6E93198E31DE002EC6C0 /* FWImageViewPlayGIFDemo */,
+				020F6EB4198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020F6E92198E31DE002EC6C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020F6EB0198E31DE002EC6C0 /* Images.xcassets in Resources */,
+				020F6EA2198E31DE002EC6C0 /* InfoPlist.strings in Resources */,
+				020F6EAB198E31DE002EC6C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020F6EB3198E31DE002EC6C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020F6EC1198E31DE002EC6C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020F6E90198E31DE002EC6C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020F6EA4198E31DE002EC6C0 /* main.m in Sources */,
+				020F6EA8198E31DE002EC6C0 /* FWAppDelegate.m in Sources */,
+				020F6EAE198E31DE002EC6C0 /* FWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020F6EB1198E31DE002EC6C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020F6EC3198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020F6EBB198E31DE002EC6C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020F6E93198E31DE002EC6C0 /* FWImageViewPlayGIFDemo */;
+			targetProxy = 020F6EBA198E31DE002EC6C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		020F6EA0198E31DE002EC6C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020F6EA1198E31DE002EC6C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		020F6EA9198E31DE002EC6C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020F6EAA198E31DE002EC6C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		020F6EBF198E31DE002EC6C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020F6EC0198E31DE002EC6C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020F6EC4198E31DE002EC6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		020F6EC5198E31DE002EC6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		020F6EC7198E31DE002EC6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Prefix.pch";
+				INFOPLIST_FILE = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		020F6EC8198E31DE002EC6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Prefix.pch";
+				INFOPLIST_FILE = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		020F6ECA198E31DE002EC6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FWImageViewPlayGIFDemo.app/FWImageViewPlayGIFDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FWImageViewPlayGIFDemoTests/FWImageViewPlayGIFDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		020F6ECB198E31DE002EC6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FWImageViewPlayGIFDemo.app/FWImageViewPlayGIFDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWImageViewPlayGIFDemo/FWImageViewPlayGIFDemo-Prefix.pch";
+				INFOPLIST_FILE = "FWImageViewPlayGIFDemoTests/FWImageViewPlayGIFDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020F6E8F198E31DE002EC6C0 /* Build configuration list for PBXProject "FWImageViewPlayGIFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020F6EC4198E31DE002EC6C0 /* Debug */,
+				020F6EC5198E31DE002EC6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020F6EC6198E31DE002EC6C0 /* Build configuration list for PBXNativeTarget "FWImageViewPlayGIFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020F6EC7198E31DE002EC6C0 /* Debug */,
+				020F6EC8198E31DE002EC6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		020F6EC9198E31DE002EC6C0 /* Build configuration list for PBXNativeTarget "FWImageViewPlayGIFDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020F6ECA198E31DE002EC6C0 /* Debug */,
+				020F6ECB198E31DE002EC6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020F6E8C198E31DE002EC6C0 /* Project object */;
+}
