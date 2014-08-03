@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="FWViewController" sceneMemberID="viewController">
@@ -15,8 +15,61 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zu9-nx-YyL">
+                                <rect key="frame" x="39" y="77" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="RepeatOneGif">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showRepeatOneGIF" destination="vXZ-lx-hvc" eventType="touchUpInside" id="br7-Gw-qHy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22m-Rm-naL">
+                                <rect key="frame" x="188" y="77" width="108" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="5LR-yz-fDy"/>
+                                </constraints>
+                                <state key="normal" title="AlwaysRunGif">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlwaysRunGIF" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MIy-mn-3Zt"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a8n-Cd-bPF" userLabel="repeatOneImageView" customClass="FWGIFImageView">
+                                <rect key="frame" x="16" y="166" width="288" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T0F-uM-D2i" userLabel="alwaysRunImageView" customClass="FWGIFImageView">
+                                <rect key="frame" x="0.0" y="132" width="320" height="431"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="22m-Rm-naL" firstAttribute="bottom" secondItem="zu9-nx-YyL" secondAttribute="bottom" id="0FO-8H-Pt8"/>
+                            <constraint firstItem="22m-Rm-naL" firstAttribute="leading" secondItem="zu9-nx-YyL" secondAttribute="trailing" constant="52" id="5SQ-Yk-frT"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="T0F-uM-D2i" secondAttribute="bottom" constant="5" id="6hc-tx-fJv"/>
+                            <constraint firstItem="T0F-uM-D2i" firstAttribute="top" secondItem="22m-Rm-naL" secondAttribute="bottom" constant="25" id="ASw-lW-2gd"/>
+                            <constraint firstItem="22m-Rm-naL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="57" id="CsW-bu-Hda"/>
+                            <constraint firstItem="a8n-Cd-bPF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="J7P-jE-JZr"/>
+                            <constraint firstAttribute="trailing" secondItem="22m-Rm-naL" secondAttribute="trailing" constant="24" id="OQe-5G-bqb"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="a8n-Cd-bPF" secondAttribute="bottom" constant="183" id="XE7-gW-dr4"/>
+                            <constraint firstItem="T0F-uM-D2i" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="XGD-5h-ytd"/>
+                            <constraint firstItem="a8n-Cd-bPF" firstAttribute="top" secondItem="22m-Rm-naL" secondAttribute="bottom" constant="59" id="dmd-1w-TzJ"/>
+                            <constraint firstAttribute="width" secondItem="T0F-uM-D2i" secondAttribute="width" id="rUD-Wr-BfA"/>
+                            <constraint firstItem="T0F-uM-D2i" firstAttribute="centerX" secondItem="a8n-Cd-bPF" secondAttribute="centerX" id="sBt-KX-guU"/>
+                            <constraint firstItem="22m-Rm-naL" firstAttribute="top" secondItem="zu9-nx-YyL" secondAttribute="top" id="sdj-bI-y40"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="alwaysRunImageView" destination="T0F-uM-D2i" id="63D-T1-uGs"/>
+                        <outlet property="repeatOneImageView" destination="a8n-Cd-bPF" id="jJw-v2-ynm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -21,6 +21,11 @@
 		020F6EB9198E31DE002EC6C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6E9B198E31DE002EC6C0 /* UIKit.framework */; };
 		020F6EC1198E31DE002EC6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 020F6EBF198E31DE002EC6C0 /* InfoPlist.strings */; };
 		020F6EC3198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020F6EC2198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m */; };
+		020F6ED6198E3395002EC6C0 /* FWGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 020F6ED5198E3395002EC6C0 /* FWGIFImageView.m */; };
+		020F6ED8198E3595002EC6C0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6ED7198E3595002EC6C0 /* ImageIO.framework */; };
+		020F6EDA198E359E002EC6C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F6ED9198E359E002EC6C0 /* QuartzCore.framework */; };
+		020F6EDD198E3AE0002EC6C0 /* runGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 020F6EDC198E3AE0002EC6C0 /* runGIF.gif */; };
+		020F6EDF198E3BA8002EC6C0 /* repeatoneGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 020F6EDE198E3BA8002EC6C0 /* repeatoneGIF.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		020F6EBE198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FWImageViewPlayGIFDemoTests-Info.plist"; sourceTree = "<group>"; };
 		020F6EC0198E31DE002EC6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		020F6EC2198E31DE002EC6C0 /* FWImageViewPlayGIFDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWImageViewPlayGIFDemoTests.m; sourceTree = "<group>"; };
+		020F6ED4198E3395002EC6C0 /* FWGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGIFImageView.h; sourceTree = "<group>"; };
+		020F6ED5198E3395002EC6C0 /* FWGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGIFImageView.m; sourceTree = "<group>"; };
+		020F6ED7198E3595002EC6C0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		020F6ED9198E359E002EC6C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		020F6EDC198E3AE0002EC6C0 /* runGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = runGIF.gif; sourceTree = "<group>"; };
+		020F6EDE198E3BA8002EC6C0 /* repeatoneGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = repeatoneGIF.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020F6EDA198E359E002EC6C0 /* QuartzCore.framework in Frameworks */,
+				020F6ED8198E3595002EC6C0 /* ImageIO.framework in Frameworks */,
 				020F6E9A198E31DE002EC6C0 /* CoreGraphics.framework in Frameworks */,
 				020F6E9C198E31DE002EC6C0 /* UIKit.framework in Frameworks */,
 				020F6E98198E31DE002EC6C0 /* Foundation.framework in Frameworks */,
@@ -101,6 +114,8 @@
 		020F6E96198E31DE002EC6C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				020F6ED9198E359E002EC6C0 /* QuartzCore.framework */,
+				020F6ED7198E3595002EC6C0 /* ImageIO.framework */,
 				020F6E97198E31DE002EC6C0 /* Foundation.framework */,
 				020F6E99198E31DE002EC6C0 /* CoreGraphics.framework */,
 				020F6E9B198E31DE002EC6C0 /* UIKit.framework */,
@@ -112,12 +127,14 @@
 		020F6E9D198E31DE002EC6C0 /* FWImageViewPlayGIFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				020F6ED3198E3382002EC6C0 /* class */,
 				020F6EA6198E31DE002EC6C0 /* FWAppDelegate.h */,
 				020F6EA7198E31DE002EC6C0 /* FWAppDelegate.m */,
 				020F6EA9198E31DE002EC6C0 /* Main.storyboard */,
 				020F6EAC198E31DE002EC6C0 /* FWViewController.h */,
 				020F6EAD198E31DE002EC6C0 /* FWViewController.m */,
 				020F6EAF198E31DE002EC6C0 /* Images.xcassets */,
+				020F6EDB198E3AB6002EC6C0 /* resourses */,
 				020F6E9E198E31DE002EC6C0 /* Supporting Files */,
 			);
 			path = FWImageViewPlayGIFDemo;
@@ -150,6 +167,24 @@
 				020F6EBF198E31DE002EC6C0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		020F6ED3198E3382002EC6C0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				020F6ED4198E3395002EC6C0 /* FWGIFImageView.h */,
+				020F6ED5198E3395002EC6C0 /* FWGIFImageView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		020F6EDB198E3AB6002EC6C0 /* resourses */ = {
+			isa = PBXGroup;
+			children = (
+				020F6EDE198E3BA8002EC6C0 /* repeatoneGIF.gif */,
+				020F6EDC198E3AE0002EC6C0 /* runGIF.gif */,
+			);
+			path = resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020F6EDF198E3BA8002EC6C0 /* repeatoneGIF.gif in Resources */,
 				020F6EB0198E31DE002EC6C0 /* Images.xcassets in Resources */,
+				020F6EDD198E3AE0002EC6C0 /* runGIF.gif in Resources */,
 				020F6EA2198E31DE002EC6C0 /* InfoPlist.strings in Resources */,
 				020F6EAB198E31DE002EC6C0 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020F6ED6198E3395002EC6C0 /* FWGIFImageView.m in Sources */,
 				020F6EA4198E31DE002EC6C0 /* main.m in Sources */,
 				020F6EA8198E31DE002EC6C0 /* FWAppDelegate.m in Sources */,
 				020F6EAE198E31DE002EC6C0 /* FWViewController.m in Sources */,
