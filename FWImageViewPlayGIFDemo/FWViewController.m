@@ -83,9 +83,9 @@
 
 - (void)repeatOneFinished:(NSNotification *)notification
 {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Tip" message:@"Repeat one finished , do you want to continue play GIF ?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Continue", nil];
-    
-    [alertView show];
+//    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Tip" message:@"Repeat one finished , do you want to continue play GIF ?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Continue", nil];
+//    
+//    [alertView show];
     
 }
 
